@@ -966,7 +966,6 @@ footer {
     grid-template-columns: repeat(8, 12fr);
     gap: 10px;
     margin-bottom: 15px;
-    margin: 15px 0px;
 }
 
 .main_hosterList .hoster_ {}
@@ -1248,13 +1247,12 @@ footer {
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .dropdown-option img {
     width: 20px;
     height: 20px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .dropdown-option:hover {
@@ -1569,7 +1567,3 @@ input[type=number] {
 }
 
 /* login section end here   */
-
-.dropdown-option p{
-    font-size: 14px;
-}
